@@ -42,9 +42,8 @@ const Navbar = () => {
           <div className="brand-and-toggler flex align-center justify-between">
             <Link to="/" className="navbar-brand fw-3 fs-22 flex align-center">
               <img src={homeIcon} alt="home" className="home-icon" />{" "}
-              <span className="navbar-brand-text fw-7">Bliss Eatery</span>
             </Link>
-            <div>
+            <div className="search-bar">
               <SearchForm></SearchForm>
             </div>
             <div className="info">
