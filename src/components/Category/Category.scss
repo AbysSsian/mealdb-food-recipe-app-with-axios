@@ -62,3 +62,60 @@
     }
   }
 }
+
+.about-us {
+  margin-top: 10vw;
+  color: black;
+}
+
+.about-info {
+  margin-top: 2vw;
+  width: 70%;
+  font-size: 1.3vw;
+}
+
+.main-info {
+  display: flex;
+
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.profile {
+  width: 15vw;
+  margin: 1vw;
+  background-color: #409494;
+  border-radius: 5%;
+  padding: 20px;
+  border: solid 0.2vw;
+  border-color: white;
+  text-align: center;
+}
+
+.profile img {
+  display: block;
+  margin: 1.5vw auto;
+  width: 8vw;
+  border: solid 0.2vw;
+  border-color: white;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.names {
+  font-size: 1.3vw;
+  margin-top: 1.5vw;
+  color: white;
+}
+
+.NIM {
+  font-size: 1.2vw;
+  color: white;
+}
+
+.container-info {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}

@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Category.scss";
+import About from "./About";
 
 const CategoryList = ({ categories }) => {
   return (
@@ -38,6 +39,7 @@ const CategoryList = ({ categories }) => {
           })}
         </section>
       </div>
+      <About />
     </div>
   );
 };
